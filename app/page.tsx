@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="p-10 flex flex-col justify-center">
             <h1 className="text-5xl font-bold leading-tight mb-4">We are <br /> Coming soon</h1>
             <p className="text-gray-400 mb-4">
-              <strong className="text-white text-xl">Amit Tiwari</strong> — Real Estate Sales Representative at 82 Realty, serving Brampton and surrounding areas. Providing clients with professional, honest, and top-tier service in the GTA real estate market.
+              <strong className="text-orange-500 text-xl">Amit Tiwari</strong> — Real Estate Sales Representative at 82 Realty, serving Brampton and surrounding areas. Providing clients with professional, honest, and top-tier service in the GTA real estate market.
             </p>
 
             <div className="text-sm text-gray-300 mb-6 space-y-2">
