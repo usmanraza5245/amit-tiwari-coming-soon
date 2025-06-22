@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import CountdownTimer from './components/CountdownTimer';
 
 export default function HomePage() {
@@ -11,13 +11,22 @@ export default function HomePage() {
           <div className="p-10 flex flex-col justify-center">
             <h1 className="text-5xl font-bold leading-tight mb-4">We are <br /> Coming soon</h1>
             <p className="text-gray-400 mb-4">
-              Amit Tiwari — Real Estate Sales Representative at 82 Realty, serving Brampton and surrounding areas. Providing clients with professional, honest, and top-tier service in the GTA real estate market.
+              <strong className="text-white text-xl">Amit Tiwari</strong> — Real Estate Sales Representative at 82 Realty, serving Brampton and surrounding areas. Providing clients with professional, honest, and top-tier service in the GTA real estate market.
             </p>
 
-            <div className="text-sm text-gray-300 mb-6">
-              <p><strong>Phone:</strong> <a href="tel:4168582564" className="text-white hover:underline">(416) 858-2564</a></p>
-              <p><strong>Email:</strong> <a href="mailto:amit@82realty.ca" className="text-white hover:underline">amit@82realty.ca</a></p>
-              <p><strong>Location:</strong> Brampton, Ontario</p>
+            <div className="text-sm text-gray-300 mb-6 space-y-2">
+              <p className="flex items-center gap-2">
+                <FaPhone className="text-orange-500" />
+                <a href="tel:4168582564" className="text-white hover:underline">(416) 858-2564</a>
+              </p>
+              <p className="flex items-center gap-2">
+                <FaEnvelope className="text-orange-500" />
+                <a href="mailto:amit@82realty.ca" className="text-white hover:underline">amit@82realty.ca</a>
+              </p>
+              <p className="flex items-center gap-2">
+                <FaMapMarkerAlt className="text-orange-500" />
+                Brampton, Ontario
+              </p>
             </div>
 
             {/* <form className="flex mb-6">
