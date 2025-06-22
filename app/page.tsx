@@ -20,7 +20,7 @@ export default function HomePage() {
               <p><strong>Location:</strong> Brampton, Ontario</p>
             </div>
 
-            <form className="flex mb-6">
+            {/* <form className="flex mb-6">
               <input
                 type="email"
                 placeholder="Enter email address"
@@ -32,7 +32,7 @@ export default function HomePage() {
               >
                 NOTIFY ME
               </button>
-            </form>
+            </form> */}
 
             <div className="text-sm text-gray-500 flex items-center gap-3">
               Stay Connect:
