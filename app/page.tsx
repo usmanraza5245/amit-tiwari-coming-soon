@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import CountdownTimer from './components/CountdownTimer';
 
-export default function ComingSoon() {
+export default function HomePage() {
   return (
     <main className="relative min-h-screen bg-[#080a15] text-white overflow-hidden">
       <div className="relative z-10 flex min-h-screen items-center justify-center p-6">
