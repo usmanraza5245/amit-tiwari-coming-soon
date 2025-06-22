@@ -9,7 +9,7 @@ export default function HomePage() {
         <div className="max-w-5xl w-full bg-[#0b0e1c] text-white rounded-2xl shadow-2xl grid grid-cols-1 md:grid-cols-2 overflow-hidden">
           {/* Left Section */}
           <div className="p-10 flex flex-col justify-center">
-            <h1 className="text-5xl font-bold leading-tight mb-4">We are <br /> Comeing soon</h1>
+            <h1 className="text-5xl font-bold leading-tight mb-4">We are <br /> Coming soon</h1>
             <p className="text-gray-400 mb-4">
               Amit Tiwari — Real Estate Sales Representative at 82 Realty, serving Brampton and surrounding areas. Providing clients with professional, honest, and top-tier service in the GTA real estate market.
             </p>
