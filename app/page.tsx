@@ -17,31 +17,17 @@ export default function HomePage() {
             <div className="text-sm text-gray-300 mb-6 space-y-2">
               <p className="flex items-center gap-2">
                 <FaPhone className="text-orange-500" />
-                <a href="tel:4168582564" className="text-white hover:underline">(416) 858-2564</a>
+                <a href="tel:4168582564" className="text-white hover:underline">(437) 217-7574</a>
               </p>
               <p className="flex items-center gap-2">
                 <FaEnvelope className="text-orange-500" />
-                <a href="mailto:amit@82realty.ca" className="text-white hover:underline">amit@82realty.ca</a>
+                <a href="mailto:duranoht@hotmail.com" className="text-white hover:underline">duranoht@hotmail.com</a>
               </p>
               <p className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-orange-500" />
                 Brampton, Ontario
               </p>
             </div>
-
-            {/* <form className="flex mb-6">
-              <input
-                type="email"
-                placeholder="Enter email address"
-                className="flex-grow p-3 rounded-l-md border-none bg-[#1f1f1f] text-white placeholder-gray-400"
-              />
-              <button
-                type="submit"
-                className="bg-orange-500 text-white px-5 py-3 rounded-r-md hover:bg-orange-600"
-              >
-                NOTIFY ME
-              </button>
-            </form> */}
 
             <div className="text-sm text-gray-500 flex items-center gap-3">
               Stay Connect:
@@ -60,7 +46,7 @@ export default function HomePage() {
           {/* Right Section with Transparent Image - Hidden on Mobile */}
           <div className="relative w-full h-96 md:h-auto hidden md:block">
             <Image
-              src="/amit-tiwari.png"
+              src="/amit-tiwari-new.png"
               alt="Amit Tiwari"
               layout="fill"
               objectFit="contain"
@@ -68,13 +54,6 @@ export default function HomePage() {
               className="object-cover"
             />
             {/* Countdown Timer */}
-            {/* <div className="absolute bottom-6 left-6 w-40 h-40 bg-orange-500 text-white rounded-full flex flex-col items-center justify-center shadow-xl">
-              <p className="text-sm mb-1">Launching in.</p>
-              <div className="text-center">
-                <p className="text-lg font-bold">451 : 04 : 54 : 56</p>
-                <p className="text-xs">Days Hours Mins Secs</p>
-              </div>
-            </div> */}
             <CountdownTimer />
           </div>
         </div>
