@@ -21,7 +21,7 @@ export default function HomePage() {
             </h1>
             <p className="text-gray-400 mb-4">
               <strong className="text-orange-500 text-xl">Amit Tiwari</strong> —
-              trusted Real Estate Broker serving Brampton and surrounding communities,
+              broker at Gold Estate Realty inc, serving Brampton and surrounding communities,
               focused on delivering transparent and reliable service
             </p>
 
@@ -93,11 +93,11 @@ export default function HomePage() {
                 Amit Tiwari
               </p>
               <p className="text-base mt-2 font-medium text-white/90 italic">
-                Trusted Real Estate Broker
+                Broker at
               </p>
-              {/* <p className="text-sm mt-1 font-semibold uppercase tracking-wider text-white/90 text-center leading-tight">
-                SAVE MAX GOLD ESTATE REALTY
-              </p> */}
+              <p className="text-sm mt-1 font-semibold uppercase tracking-wider text-white/90 text-center leading-tight">
+                Gold Estate Realty inc
+              </p>
             </div>
           </div>
         </div>
