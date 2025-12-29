@@ -21,8 +21,7 @@ export default function HomePage() {
             </h1>
             <p className="text-gray-400 mb-4">
               <strong className="text-orange-500 text-xl">Amit Tiwari</strong> —
-              Broker at SAVE MAX GOLD ESTATE REALTY, serving Brampton and
-              surrounding areas. Providing clients with professional, honest,
+              Broker serving Brampton and surrounding areas. Providing clients with professional, honest,
               and top-tier service in the real estate market.
             </p>
 
@@ -96,9 +95,9 @@ export default function HomePage() {
               <p className="text-base mt-2 font-medium text-white/90 italic">
                 Broker
               </p>
-              <p className="text-sm mt-1 font-semibold uppercase tracking-wider text-white/90 text-center leading-tight">
+              {/* <p className="text-sm mt-1 font-semibold uppercase tracking-wider text-white/90 text-center leading-tight">
                 SAVE MAX GOLD ESTATE REALTY
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
