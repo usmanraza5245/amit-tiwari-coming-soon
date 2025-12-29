@@ -38,7 +38,7 @@ export default function HomePage() {
                   href="mailto:duranoht@hotmail.com"
                   className="text-white hover:underline"
                 >
-                  duranoht@hotmail.com
+                  tech@houzgpt.ca
                 </a>
               </p>
               <p className="flex items-center gap-2">
@@ -93,7 +93,7 @@ export default function HomePage() {
                 Amit Tiwari
               </p>
               <p className="text-base mt-2 font-medium text-white/90 italic">
-                trusted Real Estate Broker
+                Trusted Real Estate Broker
               </p>
               {/* <p className="text-sm mt-1 font-semibold uppercase tracking-wider text-white/90 text-center leading-tight">
                 SAVE MAX GOLD ESTATE REALTY
